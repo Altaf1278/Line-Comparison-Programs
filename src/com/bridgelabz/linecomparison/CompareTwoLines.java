@@ -4,7 +4,7 @@ package com.bridgelabz.linecomparison;
 import java.util.Scanner;
 
 public class CompareTwoLines {
-	public static void main(String[] args) {
+	public static void comparingTwoLines() {
 		
 		System.out.println("  Welcome to Line Comparison Computation Program! ");
 		
@@ -50,10 +50,13 @@ public class CompareTwoLines {
        {
            System.out.println("Line1 is equal to Line2");
        }
-      
+      input.close();
         
 		
 }
+	public static void main(String[] args) {
+		comparingTwoLines();
+	}
 }
 
 
