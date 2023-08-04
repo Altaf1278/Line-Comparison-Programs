@@ -4,12 +4,9 @@ package com.bridgelabz.linecomparison;
 import java.util.Scanner;
 
 public class CompareTwoLines {
-	public static void main(String[] args) {
-		
-		System.out.println("  Welcome to Line Comparison Computation Program! ");
-		
-		Scanner input = new Scanner(System.in);
-		
+	public static void main(String[] args) {	
+	System.out.println("  Welcome to Line Comparison Computation Program! ");	
+	Scanner input = new Scanner(System.in);	
         // Co-ordinates of Line1 are:
         System.out.println("Enter the co-ordinates of Line 1 (x1,y1) :");
         double x1 = input.nextDouble();
@@ -30,13 +27,11 @@ public class CompareTwoLines {
         
        //To calculate lengths of two lines:
        double lengthone = Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
-       double lengthtwo = Math.sqrt((u2-u1)*(u2-u1) + (v2-v1)*(v2-11));
+       double lengthtwo = Math.sqrt((u2-u1)*(u2-u1) + (v2-v1)*(v2-v1));
        
        //Converting double to String
        String stringone = Double.toString(lengthone);
        String stringtwo = Double.toString(lengthtwo);
-       
-      
        
        if (stringone.compareTo(stringtwo) < 0) 
        {
@@ -49,11 +44,8 @@ public class CompareTwoLines {
        else 
        {
            System.out.println("Line1 is equal to Line2");
-       }
-      
-        
-		
-}
+       }		
+	}
 }
 
 
