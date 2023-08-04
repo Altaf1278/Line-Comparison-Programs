@@ -30,7 +30,7 @@ public class CompareTwoLines {
         
        //To calculate lengths of two lines:
        double lengthone = Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
-       double lengthtwo = Math.sqrt((u2-u1)*(u2-u1) + (v2-v1)*(v2-11));
+       double lengthtwo = Math.sqrt((u2-u1)*(u2-u1) + (v2-v1)*(v2-v1));
        
        //Converting double to String
        String stringone = Double.toString(lengthone);
